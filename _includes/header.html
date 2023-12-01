@@ -1,0 +1,10 @@
+<header>
+    <div class="header-info">
+        <a class="header-fullname" href="/"> <span>Marcos Bonifasi</span> </a>
+    </div>
+    <nav class="header-navigation">
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" class="navigation-link" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+        {% endfor %}
+    </nav>
+</header>

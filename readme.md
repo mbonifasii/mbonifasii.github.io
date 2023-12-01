@@ -11,4 +11,4 @@
 
 ------
 
-Built with :blue_heart: in #guatemala
+Built with :blue_heart: in :guatemala:
