@@ -27,10 +27,12 @@ p {
     line-height: 1.5;
 }
 
-
-.current {
-    color: green;
+// utilities
+.text-opacity {
+    opacity: .8;
 }
+
+// ----- Header -----
 
 // Navigation
 header {
@@ -99,4 +101,20 @@ header .header-info .header-fullname {
         margin: 0 0 0 5rem;
 
     }
+}
+
+
+// ----- Footer -----
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--dark);
+    text-align: center;
+    color: var(--light);
+    font-weight: 400;
 }
