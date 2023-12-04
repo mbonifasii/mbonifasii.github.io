@@ -1,4 +1,4 @@
-destination: ./_docs
+destination: ./docs
 plugins:
   - jekyll-feed
   - jekyll-sitemap
